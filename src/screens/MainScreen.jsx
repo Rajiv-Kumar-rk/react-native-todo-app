@@ -22,7 +22,7 @@ function MainScreen() {
                 <CategorySection />
                 <TodosSection isModalVisible={isModalVisible} setModalVisible={setModalVisible} toggleModal={toggleModal} />
             </View>
-            <AddTodo/>
+            <AddTodo />
             <BottomSheet isModalVisible={isModalVisible} setModalVisible={setModalVisible} toggleModal={toggleModal} />
         </View>
     )
